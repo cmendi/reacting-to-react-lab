@@ -1,12 +1,12 @@
 import React from "react";
 
-const Card = ({ greeting, name }) => {
+const Greeter = ({ phrase, name }) => {
 	return (
 		<>
 			<div className="card mt-4 shadow border border-primary">
 				<div className="card-body">
 					<h1>
-						{greeting}, {name}!
+						{phrase}, {name}!
 					</h1>
 				</div>
 			</div>
@@ -14,4 +14,4 @@ const Card = ({ greeting, name }) => {
 	);
 };
 
-export default Card;
+export default Greeter;
